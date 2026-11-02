@@ -480,3 +480,194 @@ li{
     color: #4e4e4e;
     text-align: center;
 }
+
+/* *************************************** responsive ********************************************* */
+
+@media screen and (max-width: 750px) {
+
+* {
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Header */
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+
+}
+#spanforname{
+    font-size: 20px;
+}
+#respon-title-header{
+    font-size: 20px;
+}
+
+ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Introduction */
+
+#introduce {
+    width: 100%;
+    margin: 90px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#roomname {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.erfanbaghlani {
+    font-size: 50px;
+}
+
+#subtitle {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Main sections */
+
+#About,
+#t-s,
+#featur,
+#end {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2,
+#t-con,
+#f-con,
+#sec-title {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    margin: auto;
+    align-items: center;
+}
+#d-f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+
+
+#main-info,
+#main-info2,
+#container-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.maincon,
+#mainlist-FB {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#second-container-main-text-about-me {
+    width: 100%;
+}
+
+.line1 {
+    width: 100%;
+}
+
+.container3,
+.container4,
+.container5,
+.container6,
+.container7 {
+    max-width:100%;
+    width: 500px
+}
+.container5{
+    height: 100px;
+}
+.ds-p{
+    margin-top: 6px;
+}
+
+#line2{
+    width: 100%;
+    height: 1px;
+}
+
+#box-info,
+#box-info2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#list-feature,
+.list-framwork {
+    width: 100%;
+    align-items: center;
+}
+
+.line1{
+    width: 500px;
+}
+
+#sec-title{
+
+margin: auto;
+width: 100%;
+
+}
+
+.Information2{
+    width: 100%;
+}
+
+#container-footer .container7:nth-child(3){
+    height: 100px;
+}
+
+.lastbox{
+    height: 170px;
+}
+
+
+.line3{
+    margin-top: 50px;
+}
+
+}

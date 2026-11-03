@@ -515,7 +515,8 @@ body {
 ul {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
+    width:100%;
 }
 
 /* Introduction */
